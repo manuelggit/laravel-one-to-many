@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'EmployeeController@index');
+
+Route::get('/task', 'TaskController@index');
